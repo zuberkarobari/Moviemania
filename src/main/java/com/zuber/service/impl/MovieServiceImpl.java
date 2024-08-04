@@ -91,6 +91,5 @@ public class MovieServiceImpl implements MovieService {
         movieDto.setLanguage(movie.getLanguage());
         movieDto.setSynopsis(movie.getSynopsis());
         return movieDto;
-
     }
 }
